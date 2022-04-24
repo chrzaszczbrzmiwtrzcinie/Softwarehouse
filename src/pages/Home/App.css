@@ -1,0 +1,381 @@
+
+
+.chuj {
+color: white;
+text-align: center;
+width: 50px;
+height: 50px;
+}
+
+.fixed {
+  background: #000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+.p-2 {
+  height: 55px;
+  width: 80px;
+  border: 5px solid #000000;
+  background-color: #000000;
+  display: inline-block;
+}
+
+
+.text {
+  color: rgb(255, 255, 255);
+  text-align: left;
+
+}
+.text2 {
+  border: 3px solid green;
+  width: 170px;
+  margin: auto;
+  color: rgb(255, 255, 255);
+  text-align: center;
+
+}
+.yes {
+  margin: auto;
+  padding-top: 210px;
+  
+}@media (max-width: 1000px){
+  .yes{
+    margin: auto;
+    padding-top: 120px;
+  }
+}
+
+.animation {
+  width: 50px;
+
+}
+
+.uptext {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg,#0ff 0,rgba(0,255,255,.4));
+  -webkit-background-clip: text;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: .02em;
+  line-height: 15px;
+  margin: 0;
+}
+
+.Kurwa {
+  background: #000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1500px;
+}
+
+
+.ltext {
+  align-items: center;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-weight: 600;
+    justify-content: center;
+    letter-spacing: .02em;
+    line-height: 20px;
+    margin: 0 8px;
+    min-width: 55px;
+    padding: 8px 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+}
+.lynx{opacity:1;pointer-events:auto;transform:translateY(0);visibility:visible}
+.lynx {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}@media (max-width: 1000px){
+  .lynx {
+display: inline;
+visibility: hidden;
+  }}
+
+.lynxlogin {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: start;
+}@media (max-width: 1000px){
+  .lynxlogin {
+display: inline;
+visibility: hidden;
+  }}
+
+.lynxleft {
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 30px;
+  width: 100%;
+
+}@media (max-width: 1000px){
+  .lynxleft {
+    display: inline;
+  }}
+@media (max-width: 1000px){
+  .lynxleft {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+    visibility: visible;
+
+
+  }
+}
+
+
+  @media (max-width: 1000px){
+    .menu {
+      background: url(./images/tak.svg) no-repeat 50%;
+      cursor: pointer;
+      display: block;
+      height: 54px;
+      width: 144px;
+    }}
+      .menu.open {background: url(./images/close.svg) no-repeat 50%;
+    }
+
+.element1 {
+  margin: 200px 0 0;
+  text-align: left;
+  max-width: 400px;
+}
+
+.center {
+  text-align: center;
+  margin: 8px;
+}
+
+.video {
+  
+}
+
+.element4 {
+  display: flex;
+  margin: -10px 0 0;
+
+}
+
+.features {
+  font-size: 20px;
+  display: flex;
+}
+
+.img {
+  background: url(./images/yes.svg) no-repeat 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-top: 24px;
+  padding-left: 34px;
+
+}
+
+.e {
+  position: absolute;
+  right: 299px;
+  height: 120px;
+  bottom: -2px;
+  
+}
+
+.zawijka {
+  margin: 20px 0 0;
+  text-align:left;
+  max-width: 400px;
+}
+
+.XD {
+  background: linear-gradient(103.25deg,rgba(0,255,255,.15),rgba(82,0,255,.1));
+  bottom: -40px;
+  height: 201px;
+  position: absolute;
+  width: 294px;
+  display: flex;
+}
+
+.XDD {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  background: url(./images/YY.png);
+  background-size: contain;
+  bottom: -190px;
+    height: 301px;
+    position: absolute;
+    width: 294px;
+    display: flex;
+    left: 190px;
+}
+
+.Jarl {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  background: url(./images/YY.png);
+  background-size: contain;
+  bottom: -240px;
+    height: 301px;
+    position: absolute;
+    width: 294px;
+    display: flex;
+    left: 280px;
+    
+}
+
+.Down {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  background: url(./images/YY.png);
+  background-size: contain;
+  bottom: -300px;
+    height: 301px;
+    position: absolute;
+    width: 294px;
+    display: flex;
+    left: 190px;
+}
+
+.animationjarl {
+  background: url(./images/ha.svg);
+  bottom: 150px;
+  height: 431px;
+  position: absolute;
+  width: 384px;
+  display: flex;
+  right: 250px;
+}
+
+.logo {
+  background: url(./images/logo1.png)no-repeat 50%; 
+  background-size:contain;
+  height:60px;
+  width:60px;
+  
+}
+#video  {
+  position: absolute;
+  width: 950px;
+  height: 500px;
+  object-fit: cover;
+  z-index: -1;
+}@media (max-width: 500px){
+  #video {
+    /* position: absolute; */
+    width: 90%;
+    height: 300px;
+    object-fit: cover;
+    z-index: -1;
+    display: block;
+
+  }}
+
+  .buttonguton {
+    
+      background-color: transparent;
+      border: 3px solid #1fc51f;
+      border-radius: 50px;
+      -webkit-transition: all .15s ease-in-out;
+      transition: all .15s ease-in-out;
+      color: #1fc51f;
+    }
+    .buttonguton:hover {
+      box-shadow: 0 0 10px 0 #1fc51f inset, 0 0 20px 2px #1fc51f;
+      border: 3px solid #1fc51f;
+    }
+
+
+/* Then maybe something like */
+.buttonguton:active {
+    background: #000;
+    opacity: .3;
+}
+
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  padding: 1rem;
+  text-align: center;
+}
+
+.hero p {
+  font-size: 1.4rem;
+}
+
+.hero .btn {
+  margin: 1rem;
+}
+
+.bottom-text h2 {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.blue {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg,#0ff 0,rgb(30 187 30));
+  -webkit-background-clip: text;
+}
+.blue1 {
+color: #0ff;
+}
+
+  
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
