@@ -13,7 +13,6 @@ import Services from './pages/Service/Services';
 import Testimonial from './pages/Testimonial/Testimonial';
 import Navbar from './Components/Navbar/Navbar';
 
-
 const App = () => {
   return (
    <Router>

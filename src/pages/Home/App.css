@@ -58,11 +58,8 @@ height: 50px;
 
 }
 .text2 {
-  border: 3px solid green;
   width: 170px;
   margin: auto;
-  color: rgb(255, 255, 255);
-  text-align: center;
 
 }
 .yes {
@@ -190,10 +187,6 @@ visibility: hidden;
   margin: 8px;
 }
 
-.video {
-  
-}
-
 .element4 {
   display: flex;
   margin: -10px 0 0;
@@ -292,6 +285,19 @@ visibility: hidden;
   width:60px;
   
 }
+
+.logov3 {
+  background: url(./images/logo1.png)no-repeat 50%; 
+  bottom: -70px;
+  height: 271px;
+  justify-self: center;
+  position: relative;
+  width: 303px;
+}@media (max-width: 1000px){
+  .logov3 {
+    bottom: -190px;
+  }}
+
 #video  {
   position: absolute;
   width: 950px;
@@ -356,11 +362,8 @@ visibility: hidden;
 
 .blue {
   -webkit-text-fill-color: transparent;
-  background: linear-gradient(90deg,#0ff 0,rgb(30 187 30));
-  -webkit-background-clip: text;
-}
-.blue1 {
-color: #0ff;
+  background: linear-gradient(90deg,#0ff 0,rgb(0, 195, 255));
+-webkit-background-clip: text;
 }
 
   

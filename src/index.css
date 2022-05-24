@@ -44,7 +44,7 @@ h3{font-size:24px;font-weight:600;line-height:30px;margin:8px 0 0;}@media (min-w
   .pis{padding-bottom:0;
   padding-top:10px}
 }
-.pis{margin:32px 0}
+.pis{margin:100px 0}
 @media (min-width:1000px)
 {.pis{max-width:45ch}
 }
@@ -66,16 +66,17 @@ h3{font-size:24px;font-weight:600;line-height:30px;margin:8px 0 0;}@media (min-w
   width: 303px;
 }
 
+
 h2 {
   -webkit-text-fill-color: transparent;
   background: linear-gradient(90deg,#0ff 0,rgba(0,255,255,.4));
-  -webkit-background-clip: text;
   display: inline-block;
   font-size: 15px;
   font-weight: 500;
   letter-spacing: .02em;
   line-height: 15px;
   margin: 0;
+  -webkit-background-clip: text;
 }
 
 
