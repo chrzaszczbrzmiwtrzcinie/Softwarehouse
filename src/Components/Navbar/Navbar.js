@@ -64,8 +64,6 @@ const Navbar = () => {
         <ul className="navbar-nav ml-auto">
             
             <div className="hori-selector">
-              <div className="left"></div>
-              <div className="right"></div>
             </div>
             
             <li className="nav-item active">
@@ -99,10 +97,17 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link a" to="/contact" exact>
+              <NavLink className="nav-link a" to="/register" exact>
                 <i 
                 className="far fa-copy">
-                </i>Contact Us
+                </i>Register
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link a" to="/login" exact>
+                <i 
+                className="far fa-copy">
+                </i>Login
               </NavLink>
             </li>
         </ul>

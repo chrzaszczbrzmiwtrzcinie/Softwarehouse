@@ -7,11 +7,12 @@ import {
 } from 'react-router-dom';
 
 import About from './pages/About/About';
-import Contact from './pages/Contact/Contact';
+import Register from './pages/Register/Register';
 import Home from './pages/Home/Home';
 import Services from './pages/Service/Services';
 import Testimonial from './pages/Testimonial/Testimonial';
 import Navbar from './Components/Navbar/Navbar';
+import Login from './pages/Login/Login';
 
 const App = () => {
   return (
@@ -31,11 +32,15 @@ const App = () => {
         <Route path="/testimonial" exact>
           <Testimonial/>
         </Route>
-        <Route path="/contact" exact>
-          <Contact/>
+        <Route path="/register" exact>
+          <Register/>
+        </Route>
+        <Route path="/login" exact>
+          <Login/>
         </Route>
         <Redirect to="/" />
       </Switch>
+
     </main>
    </Router>
   );

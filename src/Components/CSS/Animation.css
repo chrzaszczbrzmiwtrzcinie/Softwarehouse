@@ -92,5 +92,49 @@
       opacity: 0;
     }
   }
+
+
+  .clip-each {
+        display: block;
+        position: relative;
+        -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+        clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+        -webkit-clip-path: url("#hexagon-clip");
+        clip-path: url("#hexagon-clip");
+        -webkit-transition: all 0.2s ease-in;
+        transition: all 0.2s ease-in;
+        margin: 0 auto;
+      }
+      
+      a.clip-each:hover {
+        filter: blur(4px);
+        -webkit-transition: all 0.25s ease-in;
+        transition: all 0.25s ease-in;
+      
+      }
+      .clip-gradient {
+        background-image: url(./../../images/react-hexagon.png);
+        width: 160px;
+        height: 160px;
+        
+      }
+      
+      .clip-gradient .clip-caption {
+        color: #fff;
+      }
+      .clip-caption {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        text-align: center;
+      } 
+
+      .react {
+        background-image: url(./../../images/react-hexagon.png);
+
+      }
   
   

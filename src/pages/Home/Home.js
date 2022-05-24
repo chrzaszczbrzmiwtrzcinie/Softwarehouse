@@ -2,19 +2,24 @@ import React from 'react'
 import './../../Components/CSS/App.css';
 import './../../Components/CSS/Animation.css'
 import video from "./../../images/video.mp4";
-import { render } from "react-dom"
+
 
 
 
 
 const Home = () => {
   return (
-    
-<div className="App">
-  <video autoPlay loop muted id='video'>
+
+
+<div>
+  <div class="video_contain">
+    <video autoPlay loop muted id='video'>
     <source src={video} type='video/mp4'/>
   </video>
+  </div>
+<div className="App">
   <div>
+  
     <div className='yes text-focus-in'>
     <div className="hero-text">
       <h1><span className="blue">Software </span> House</h1>
@@ -44,7 +49,7 @@ const Home = () => {
       </div>
     </div>
 
-      <div className='pis App text-focus-in '>
+      <div className='Po Pap text-focus-in '>
         <div>
           <div className='noclass'></div>
         </div>
@@ -57,6 +62,54 @@ const Home = () => {
       </div>
     </div>
   </div>
+  <div className='tech colour'>
+      <div className=''></div>
+        <div>
+          <h3 className='collumns'>What Technologies we use to programming pages</h3>
+        </div>
+        <div>
+          <p className='margin center'>We use the best technologes to programming pages there is some examples </p>
+        </div>
+
+        <ul className='list'>
+          <li>
+             <a href="#" class="clip-each clip-gradient">
+				      <div class="clip-caption"></div>
+			       </a>
+             <a href="#">
+              <h3 className='center2'>React.JS</h3>
+              </a>
+              <h5></h5>
+          </li>
+          <li>
+            <a href="#" class="clip-each clip-gradient">
+				      <div class="clip-caption"></div>
+			      </a>
+            <a href="#">
+              <h3 className='center2'>React.JS</h3>
+              </a>
+          </li>
+          <li >
+            <a href="#" class="clip-each clip-gradient react ">
+				      <div class="clip-caption"></div>
+			      </a>
+            <a href="#">
+              <h3 className='center2'>React.JS</h3>
+              </a>
+          </li>
+        </ul>
+        
+        
+        <svg class="clip-svg">
+			<defs>
+				<clipPath id="hexagon-clip" clipPathUnits="objectBoundingBox">
+					<polygon points="0.25 0.05, 0.75 0.05, 1 0.5, 0.75 0.95, 0.25 0.95, 0 0.5" />
+				</clipPath>
+			</defs>
+		</svg>	
+      </div>
+
+</div>
   )
 }
 export default Home;

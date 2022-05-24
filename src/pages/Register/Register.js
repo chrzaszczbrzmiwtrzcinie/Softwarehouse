@@ -1,13 +1,13 @@
 import React from 'react'
-const Contact = () => {
+const Register = () => {
   return (
     <div className="container">
     
       <h1 className="text-center" style={{paddingTop: "30%"}}>
-        Contact Us
+      Register
       </h1>
       
     </div>
   )
 }
-export default Contact;
+export default Register;

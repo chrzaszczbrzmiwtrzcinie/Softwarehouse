@@ -23,8 +23,7 @@ i {
   margin-right: 10px;
 }
 .navbar-logo {
-  padding: 15px;
-background: url(./../../images/logo1.png);
+  background: url(./../../images/logo1.png);
   pointer-events: none;
   background-size:contain;
   height:60px;
@@ -41,7 +40,12 @@ background: url(./../../images/logo1.png);
   top: 0;
   width: 100%;
   z-index: 9999;
-}
+}@media (max-width: 991px) {
+  .navbar-mainbg {
+  padding: 0.5rem 1rem;
+
+  }}
+
 #navbarSupportedContent {
   overflow: hidden;
   position: relative;
@@ -68,10 +72,14 @@ background: url(./../../images/logo1.png);
   position: relative;
 }
 #navbarSupportedContent > ul > li.active > a {
-  color: #000000;
+  
   background-color: transparent;
   transition: all 0.7s;
-}
+}@media (max-width: 991px) {
+  #navbarSupportedContent > ul > li.active > a {
+  color: #000000;
+}}
+
 #navbarSupportedContent a:not(:only-child):after {
   content: '\f105';
   position: absolute;
@@ -90,18 +98,21 @@ background: url(./../../images/logo1.png);
 }
 
 .hori-selector {
-  display: inline-block;
-  position: absolute;
-  height: 100%;
-  top: 0px;
-  left: 0px;
-  transition-duration: 0.6s;
-  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  background-color: #fff;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  margin-top: 10px;
-}
+
+}@media (max-width: 991px) {
+  .hori-selector {
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    transition-duration: 0.6s;
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    background-color: #fff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 10px;
+  }}
 .hori-selector .right,
 .hori-selector .left {
   position: absolute;
@@ -177,12 +188,7 @@ background: url(./../../images/logo1.png);
   
   
   
-  
   h3{font-size:24px;font-weight:600;line-height:30px;margin:8px 0 0;}@media (min-width:1000px){h3{font-size:40px;line-height:48px;}}
-  
-  .loda{padding:60px 16px;position:relative}@media (min-width:1000px){.loda{padding:42px 0 0;position:static}}
-  
-  .x{padding:60px 16px;position:relative}@media (min-width:1000px){.x{padding:42px 0 0;position:static}}
   
   
   .pis{
@@ -213,7 +219,6 @@ background: url(./../../images/logo1.png);
     justify-self: center;
     position: relative;
     width: 303px;
-    top: 800px;
   }
   
   h2 {
@@ -242,7 +247,4 @@ background: url(./../../images/logo1.png);
   .p  {
     font-size: 16px;}
   }
-
-
-
 }
