@@ -108,7 +108,22 @@ const Home = () => {
 			</defs>
 		</svg>	
       </div>
+      <div className='contactus'> 
+      <div className='contactus-info'>
+        <div>
+          <h3>Are you intrested in work with JarlTeam?</h3>
+        </div>
+      <div className='short-title'>
+        <p>We are looking to work with people that are serious about the programming, marketing partners, and those who wish to promote our company around the world.</p>
+      </div>
 
+      </div>
+      <div className='buttoncontact'>
+      <button class="btn gradient">Contact Us</button>
+      
+      </div>
+      
+      </div>
 </div>
   )
 }
