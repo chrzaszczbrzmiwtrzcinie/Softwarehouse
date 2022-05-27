@@ -1,3 +1,6 @@
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -307,9 +310,10 @@ bottom: 0px;
   display: grid;
   max-width: 1200px;
   margin: auto;
-}@media (max-width: 750px){
+}
+  @media (max-width: 1000px){
 .contactus {
-  padding: 10px 10px;
+  padding: 30px 30px;
 }}
 .contactus-info {
   display: flex;
@@ -318,6 +322,8 @@ bottom: 0px;
   text-align: left;
   
 }
+
+
 
 
 .short-title {

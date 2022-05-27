@@ -2,12 +2,16 @@ import React from 'react'
 import './../../Components/CSS/App.css';
 import './../../Components/CSS/Animation.css'
 import video from "./../../images/video.mp4";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 
 
 
 
 const Home = () => {
+
   return (
 
 
@@ -20,14 +24,14 @@ const Home = () => {
 <div className="App">
   <div>
   
-    <div className='yes text-focus-in'>
+    <div className='yes'>
     <div className="hero-text">
       <h1><span className="blue">Software </span> House</h1>
         <p>Guarantee of execution of the order within <span className="blue1">30 Days, </span> otherwise money back.</p>
     </div>
     </div>
 
-    <div className="text2">
+    <div className="text2" data-aos="fade-up" data-aos-delay="100">
       <a href="roxy.pl">
         <div className='buttonguton'>
         <p className='center'>Get Started </p>
@@ -35,7 +39,7 @@ const Home = () => {
       </a>
     </div>
 
-    <div className='pis App text-focus-in'>
+    <div className='pis App' data-aos="fade-up" data-aos-delay="100">
       <div className='element2'><h2>#TITLE</h2>
         <h3 className='text'>Web & Mobile Software House</h3>
           <p className='p'>Implement solutions with impact. Digitize all aspects of your business and gain the technological advantage cooperating with commerce transformation experts. 
@@ -49,7 +53,7 @@ const Home = () => {
       </div>
     </div>
 
-      <div className='Po Pap text-focus-in '>
+      <div className='Po Pap' data-aos="fade-up" data-aos-delay="100">
         <div>
           <div className='noclass'></div>
         </div>
@@ -63,37 +67,37 @@ const Home = () => {
     </div>
   </div>
   <div className='tech colour'>
-      <div className=''></div>
+      <div data-aos="fade-up" data-aos-delay="200">
         <div>
           <h3 className='collumns'>What Technologies we use to programming pages</h3>
         </div>
         <div>
           <p className='margin center'>We use the best technologes to programming pages there is some examples </p>
         </div>
-
+      </div>
         <ul className='list'>
           <li>
-             <a href="#" class="clip-each clip-gradient">
+             <a href="/" class="clip-each clip-gradient " >
 				      <div class="clip-caption"></div>
 			       </a>
-             <a href="#">
-              <h3 className='center2'>React.JS</h3>
+             <a href="/">
+              <h3 className='center2' >React.JS</h3>
               </a>
-              <h5></h5>
+              <h5>1</h5>
           </li>
           <li>
-            <a href="#" class="clip-each clip-gradient">
+            <a href="/" class="clip-each clip-gradient">
 				      <div class="clip-caption"></div>
 			      </a>
-            <a href="#">
+            <a href="/">
               <h3 className='center2'>React.JS</h3>
               </a>
           </li>
           <li >
-            <a href="#" class="clip-each clip-gradient react ">
+            <a href="/" class="clip-each clip-gradient react ">
 				      <div class="clip-caption"></div>
 			      </a>
-            <a href="#">
+            <a href="/">
               <h3 className='center2'>React.JS</h3>
               </a>
           </li>
@@ -108,22 +112,40 @@ const Home = () => {
 			</defs>
 		</svg>	
       </div>
+
+      
       <div className='contactus'> 
-      <div className='contactus-info'>
+        <div className='contactus-info' data-aos="fade-up" data-aos-delay="200">
         <div>
           <h3>Are you intrested in work with JarlTeam?</h3>
         </div>
-      <div className='short-title'>
-        <p>We are looking to work with people that are serious about the programming, marketing partners, and those who wish to promote our company around the world.</p>
-      </div>
+        <div>
+        <p className='short-title'>We are looking to work with people that are serious about the programming, marketing partners, and those who wish to promote our company around the world.</p>
+        </div>
 
-      </div>
-      <div className='buttoncontact'>
-      <button class="btn gradient">Contact Us</button>
+        </div>
+       <div  className='buttoncontact'data-aos="fade-up" data-aos-delay="200">
+       <button class="btn gradient ">Contact Us</button>
       
-      </div>
+
+
       
-      </div>
+        </div>
+    </div>
+    <div><h1>xd</h1></div>
+    <div><h1>xd</h1></div>
+    <div><h1>xd</h1></div>
+    <div><h1>xd</h1></div>
+    <div><h1>xd</h1></div>
+    <div><h1>xd</h1></div>
+    <div><h1>xd</h1></div>
+    <div><h1>xd</h1></div>
+    <div><h1>xd</h1></div>
+    <div><h1>xd</h1></div>
+    <div><h1>xd</h1></div>
+    <div><h1>xd</h1></div><div><h1>xd</h1></div>
+    <div><h1>xd</h1></div>
+    
 </div>
   )
 }
