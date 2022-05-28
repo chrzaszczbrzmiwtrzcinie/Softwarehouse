@@ -112,12 +112,6 @@
         transition: all 0.25s ease-in;
       
       }
-      .clip-gradient {
-        background-image: url(./../../images/react-hexagon.png);
-        width: 160px;
-        height: 160px;
-        
-      }
       
       .clip-gradient .clip-caption {
         color: #fff;
@@ -134,7 +128,20 @@
 
       .react {
         background-image: url(./../../images/react-hexagon.png);
+        height: 90px;
+        width: 96px;
+      }
 
+      .java {
+        background-image: url(./../../images/java.png);
+        height: 90px;
+        width: 97px;
+      }
+
+      .angular {
+        background-image: url(./../../images/angular.png);
+        height: 94px;
+        width: 100px;
       }
   
   

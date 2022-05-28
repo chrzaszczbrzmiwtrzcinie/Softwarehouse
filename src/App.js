@@ -13,12 +13,16 @@ import Services from './pages/Service/Services';
 import Testimonial from './pages/Testimonial/Testimonial';
 import Navbar from './Components/Navbar/Navbar';
 import Login from './pages/Login/Login';
+import Footer from './Components/Footer/Footer';
 
 const App = () => {
   return (
    <Router>
+     <div>
+    
     <Navbar/>
     <main>
+
       <Switch>
         <Route path="/" exact>
           <Home/>
@@ -39,10 +43,14 @@ const App = () => {
           <Login/>
         </Route>
         <Redirect to="/" />
+
       </Switch>
 
     </main>
+    <Footer/> 
+    </div>
    </Router>
+   
   );
 }
 

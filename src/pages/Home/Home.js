@@ -1,4 +1,5 @@
 import React from 'react'
+
 import './../../Components/CSS/App.css';
 import './../../Components/CSS/Animation.css'
 import video from "./../../images/video.mp4";
@@ -76,46 +77,38 @@ const Home = () => {
         </div>
       </div>
         <ul className='list'>
-          <li>
-             <a href="/" class="clip-each clip-gradient " >
+          <li data-aos="fade-up" data-aos-delay="200">
+             <a href="/" class="clip-each angular" data-aos="fade-up" data-aos-delay="200" >
 				      <div class="clip-caption"></div>
 			       </a>
              <a href="/">
-              <h3 className='center2' >React.JS</h3>
+              <h5 className='center2' >Angular</h5>
               </a>
-              <h5>1</h5>
+              <p className='discription'>Angular is a comprehensive framework for designing and creating efficient SPA (Single Page Application) applications. Written in TypeScript and supported and developed by Google.</p>
+              
           </li>
-          <li>
-            <a href="/" class="clip-each clip-gradient">
-				      <div class="clip-caption"></div>
+          <li data-aos="fade-up" data-aos-delay="400">
+            <a href="/" class="clip-each java">
 			      </a>
             <a href="/">
-              <h3 className='center2'>React.JS</h3>
+              <h5 className='center2'>Java</h5>
               </a>
+              <p className='discription'>Back-end developer works on various functionalities necessary for a given application. Java ensures adequate efficiency and speed of operation, prepares key system elements such as database, API</p>
           </li>
-          <li >
-            <a href="/" class="clip-each clip-gradient react ">
-				      <div class="clip-caption"></div>
+          <li data-aos="fade-up" data-aos-delay="600">
+            <a href="/" class="clip-each  react ">
 			      </a>
             <a href="/">
-              <h3 className='center2'>React.JS</h3>
+              <h5 className='center2'>React</h5>
               </a>
+              <p className='discription'>Thanks to React.js (JavaScript framework), our front-end developers build beautiful and modern user interfaces operating as progressive web applications</p>
           </li>
         </ul>
-        
-        
-        <svg class="clip-svg">
-			<defs>
-				<clipPath id="hexagon-clip" clipPathUnits="objectBoundingBox">
-					<polygon points="0.25 0.05, 0.75 0.05, 1 0.5, 0.75 0.95, 0.25 0.95, 0 0.5" />
-				</clipPath>
-			</defs>
-		</svg>	
       </div>
 
       
       <div className='contactus'> 
-        <div className='contactus-info' data-aos="fade-up" data-aos-delay="200">
+        <div className='contactus-info ' data-aos="fade-up" data-aos-delay="200" >
         <div>
           <h3>Are you intrested in work with JarlTeam?</h3>
         </div>
@@ -132,19 +125,7 @@ const Home = () => {
       
         </div>
     </div>
-    <div><h1>xd</h1></div>
-    <div><h1>xd</h1></div>
-    <div><h1>xd</h1></div>
-    <div><h1>xd</h1></div>
-    <div><h1>xd</h1></div>
-    <div><h1>xd</h1></div>
-    <div><h1>xd</h1></div>
-    <div><h1>xd</h1></div>
-    <div><h1>xd</h1></div>
-    <div><h1>xd</h1></div>
-    <div><h1>xd</h1></div>
-    <div><h1>xd</h1></div><div><h1>xd</h1></div>
-    <div><h1>xd</h1></div>
+
     
 </div>
   )
