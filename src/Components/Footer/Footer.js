@@ -5,34 +5,72 @@ const Footer = () => {
   return (
   <div className="container">
 <footer>
-    <div className='footer'>
-    <h2>JarlTeam</h2>
-    <div className='footerlist'>
-        <ul>
-            <li>
-                <p>Services</p>
-            </li>
-            <li>
-                <p>Contact</p>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <p>About</p>
-            </li>
-            <li>
-                <p>Terms</p>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <p>Login</p>
-            </li>
-            <li>
-                <p>Register</p>
-            </li>
-        </ul>
+    <div className='upfooter'>
+    <div className='location'>
+        <div>NIP 8992786490</div>
+        <div>KRS 0000608120</div>
+        <div>REGON 363987723</div>
+        </div>
+        <div className='someinfo'>
+            <div className='pointer icn'></div>
+            <div className='big'>JarlTeam</div>
+            <div className='small'>Netherland</div>
+            <div className='small'>Einhoven</div>
+            <div className='small'>5612 AZ</div>
+        </div>
+        <div className='pages'>
+        <div className='pages-menu'>
+        <a href="/" class="links">
+                    Home
+		    	</a>
+                <a href="/register" class="links">
+               Register
+			    </a>
+                <a href="/services" class="links">
+                Services
+		    	</a>
+               <a href="/login" class="links">
+               Login
+			    </a>
+                <a href="/about" class="links">
+               About
+			    </a>
+
+        </div>
+        </div>
     </div>
+
+    <div className='footerlist'>
+        <div className='center'>
+             <h4 className='title'>JarlTeam 2022 © All right reserved</h4>
+            <div className='fuck'>
+                 <a href="/" class="links">
+                    TOS
+		    	</a>
+               <a href="/" class="links">
+               Privacy Policy
+			    </a>
+            </div>
+        </div>
+        <div className='social'>
+            <a href="/" class="icons instagram ">
+            </a>
+             <a href="/" class="icons facebook">
+		    </a>
+            <a href="/" class="icons telegram">
+		    </a>
+            <a href="/" class="icons linkedin">
+            </a>
+        </div>
+        <div className='letsfckschool'>
+                 <h2 className='title2'>
+                 +48 666 666 666
+		    	</h2>
+                <div class="title2">
+                    JarlTeam@protonmail.com
+		    	</div>
+            </div>
+        
     </div>
 </footer>
     

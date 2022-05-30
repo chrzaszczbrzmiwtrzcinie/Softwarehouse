@@ -43,9 +43,7 @@ const App = () => {
           <Login/>
         </Route>
         <Redirect to="/" />
-
       </Switch>
-
     </main>
     <Footer/> 
     </div>
