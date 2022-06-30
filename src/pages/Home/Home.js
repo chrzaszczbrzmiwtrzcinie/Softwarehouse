@@ -17,11 +17,7 @@ const Home = () => {
 
 
 <div>
-  <div class="video_contain">
-    <video autoPlay loop muted id='video'>
-    <source src={video} type='video/mp4'/>
-  </video>
-  </div>
+  
 <div className="App">
   <div>
   
@@ -45,7 +41,7 @@ const Home = () => {
         <h3 className='text'>Web & Mobile Software House</h3>
           <p className='p'>Implement solutions with impact. Digitize all aspects of your business and gain the technological advantage cooperating with commerce transformation experts. 
          </p>
-        <div className='features img'>Napierdalanie Responsywnych stron całymi dniami</div>
+        <div className='features img'>Robienie Responsywnych stron całymi dniami</div>
         <div className='features img'>Tworzenie błędów które pozniej naprawiamy</div>
         <div className='features img'>Robienie Exploitów w kodzie</div>
       </div>
@@ -59,7 +55,7 @@ const Home = () => {
           <div className='noclass'></div>
         </div>
       <div>
-        <div className='element2'><h2>Jebane responsywne strony</h2></div>
+        <div className='element2'><h2>#TITLE</h2></div>
         <h3 className='text'>Ecommerce</h3>
         <p className='p'>We build online stores that are limited only by your imagination. We optimize them in terms of marketing, because each store must be able to sell. We use batch methods, and if you use these methods, we write the basics of the modules as needed. 
         </p>
@@ -105,7 +101,76 @@ const Home = () => {
           </li>
         </ul>
       </div>
+      <div className='content'>
+        <div>
+          <h3 class="company-title">Companies that trusted us</h3>
+        </div>
+        <div className='Partners'></div>
+        <div className='Clients'>
+          <div className='client realmadryt'>
+            <a href="/home" target="_blank" rel="nofollow" data-aos="fade-up" data-aos-delay="50">
+            <div className='allegro'></div>
+            </a>
+          </div>
+          <div className='client realmadryt'>
+            <a href="/home" target="_blank" rel="nofollow" data-aos="fade-up" data-aos-delay="50">
+            <div className='allegro'></div>
+            </a>
+          </div>
+          <div className='client realmadryt'>
+            <a href="/home" target="_blank" rel="nofollow" data-aos="fade-up" data-aos-delay="50">
+            <div className='allegro'></div>
+            </a>
+          </div>
+          <div className='client realmadryt'>
+            <a href="/home" target="_blank" rel="nofollow" data-aos="fade-up" data-aos-delay="50">
+              <div className='allegro'></div>
+            </a>
+          </div>
+          <div className='client realmadryt'>
+            <a href="/home" target="_blank" rel="nofollow" data-aos="fade-up" data-aos-delay="125">
+            <div className='allegro'></div>
+            </a>
+          </div>
+          <div className='client realmadryt'>
+            <a href="/home" target="_blank" rel="nofollow" data-aos="fade-up" data-aos-delay="150">
+            <div className='allegro'></div>
+            </a>
+          </div>
+          <div className='client realmadryt'>
+            <a href="/home" target="_blank" rel="nofollow" data-aos="fade-up" data-aos-delay="175">
+              <div className='allegro'></div>
+            </a>
+          </div>
+          <div className='client realmadryt'>
+            <a href="/home" target="_blank" rel="nofollow" data-aos="fade-up" data-aos-delay="200">
+              <div className='allegro'></div>
+            </a>
+            </div>
+          <div className='client realmadryt'>
+            <a href="/home" target="_blank" rel="nofollow" data-aos="fade-up" data-aos-delay="275">
+            <div className='allegro'></div>
+            </a>
+          </div>
+          <div className='client realmadryt'>
+          <a href="/home" target="_blank" rel="nofollow" data-aos="fade-up" data-aos-delay="300">
+            <div className='allegro'></div>
+          </a>
+          </div>
+          <div className='client realmadryt'>
+            <a href="/home" target="_blank" rel="nofollow" data-aos="fade-up" data-aos-delay="325">
+            <div className='allegro'></div>
+            </a>
+          </div>
+          <div className='client realmadryt'>
+          <a href="/home" target="_blank" rel="nofollow" data-aos="fade-up" data-aos-delay="350">
+          <div className='allegro'></div>
+          </a>
+          </div>
 
+
+        </div>
+      </div>
       
       <div className='contactus'> 
         <div className='contactus-info ' data-aos="fade-up" data-aos-delay="200" >

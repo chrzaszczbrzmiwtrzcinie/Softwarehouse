@@ -8,8 +8,6 @@ h5 {
   font-weight: bold;
   font-family: Wotfard,Arial,serif;
 }
-
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -26,7 +24,6 @@ body {
   scrollbar-color: #073a4d transparent;
   scrollbar-width: thin;
 }
-
 .f16, p {
   font-size: 14px;
   font-weight: 300;
@@ -46,18 +43,17 @@ body {
   .App {
   margin: auto;
   max-width: 960px;
+}}
+h3{
+  font-size:24px;
+  font-weight:600;
+  line-height:30px;
+  margin:8px 0 0;
+}@media (min-width:1000px){
+  h3 {
+    font-size:40px;
+    line-height:48px;
   }}
-
-
-
-
-h3{font-size:24px;font-weight:600;line-height:30px;margin:8px 0 0;}@media (min-width:1000px){h3{font-size:40px;line-height:48px;}}
-
-.loda{padding:60px 16px;position:relative}@media (min-width:1000px){.loda{padding:42px 0 0;position:static}}
-
-.x{padding:60px 16px;position:relative}@media (min-width:1000px){.x{padding:42px 0 0;position:static}}
-
-
 .pis{
   padding-bottom:50px;
 }
@@ -79,17 +75,15 @@ h3{font-size:24px;font-weight:600;line-height:30px;margin:8px 0 0;}@media (min-w
   padding:0;
   text-align:left;
 }
-
-
 .noclass {
-  background: url(./images/market-data.4522c8e9.svg);
-  height: 271px;
+  background: url(./images/page.jpg);
+  height: 441px;
   justify-self: center;
   position: relative;
-  width: 303px;
+  width: 700px;
+  justify-content: flex-start;
+  padding: 42px 0 0;
 }
-
-
 h2 {
   -webkit-text-fill-color: transparent;
   background: linear-gradient(90deg,#0ff 0,rgba(0,255,255,.4));
@@ -101,9 +95,6 @@ h2 {
   margin: 0;
   -webkit-background-clip: text;
 }
-
-
-
 .p {
   font-size: 14px;
   font-weight: 300;
@@ -117,7 +108,6 @@ h2 {
   font-size: 16px;
   margin: 9px 0 0;
 }}
-
 .text {
   color: rgb(255, 255, 255);
   text-align: left;
@@ -125,12 +115,10 @@ h2 {
 .text2 {
   width: 170px;
   margin: auto;
-
 }
 .yes {
   margin: auto;
   padding-top: 210px;
-  
 }@media (max-width: 1000px){
   .yes{
     margin: auto;
@@ -148,38 +136,14 @@ h2 {
   line-height: 15px;
   margin: 0;
 }
-
 .center {
   text-align: center;
   margin: 8px;
 }
-
-.img {
-  background: url(./images/yes.svg) no-repeat 0;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 20px;
-  margin-top: 24px;
-  padding-left: 34px;
-
-}
-
-.logov3 {
-  background: url(./images/logo1.png)no-repeat 50%; 
-  height: 271px;
-  justify-self: center;
-  position: relative;
-  bottom: -50px;
-}@media (max-width: 1000px) {
-.logov3{
-bottom: 0px;
-
-}}
 #video {
   position: absolute;
   top: 0;
   left: 0;
-  /** could be any size **/
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -195,9 +159,7 @@ bottom: 0px;
   transform: translate(-50%, -50%);
   z-index: -1;
 }
-
   .buttonguton {
-    
       background-color: transparent;
       border: 3px solid #1fc51f;
       border-radius: 50px;
@@ -209,15 +171,10 @@ bottom: 0px;
       box-shadow: 0 0 10px 0 #1fc51f inset, 0 0 20px 2px #1fc51f;
       border: 3px solid #1fc51f;
     }
-
-
-/* Then maybe something like */
 .buttonguton:active {
     background: #000;
     opacity: .3;
 }
-
-
 .hero-text {
   display: flex;
   flex-direction: column;
@@ -227,33 +184,27 @@ bottom: 0px;
   padding: 1rem;
   text-align: center;
 }
-
 .hero p {
   font-size: 1.4rem;
 }
-
 .hero .btn {
   margin: 1rem;
 }
-
 .bottom-text h2 {
   font-size: 1.6rem;
   text-align: center;
 }
-
 .blue {
   -webkit-text-fill-color: transparent;
   background: linear-gradient(90deg,#0ff 0,rgb(0, 195, 255));
 -webkit-background-clip: text;
 }
-
 .tech {
   align-items: center;
   display: flex;
   flex-direction: column;
   margin-top: 35px;
 }
-
 .collumns {
   max-width: 580px;
   text-align: center;
@@ -277,7 +228,6 @@ bottom: 0px;
 .colour {
   background: linear-gradient(180deg,transparent,rgba(9,22,59,.4) 50%,rgba(9,22,59,.4) 70%,transparent);
 }
-
 .center2 {
   text-align: center;
   font-size: 25px;
@@ -291,7 +241,6 @@ bottom: 0px;
   text-align: center;
   letter-spacing: .09em;
 }
-
 .Po {
   display: flex;
   flex-direction: column-reverse;
@@ -301,22 +250,13 @@ bottom: 0px;
   text-align: left;
   margin: 100px 0;
 }
-
 .Pap {
-  text-align: left;
-  padding: 0em;
-  display: grid;
-  grid-gap: 2em;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 150px;
-  margin: auto;
-  max-width: 960px;
+  flex-direction: row;
 }@media (max-width: 600px){
   .Pap {
     display: flex;
     flex-direction: column-reverse;
   }}
-
 .contactus {
   background: linear-gradient(148deg,rgba(0,78,84,.5),rgb(255 0 247 / 14%) 100%,rgb(4 34 36 / 0%) 0);
   border-radius: 40px;
@@ -337,15 +277,10 @@ bottom: 0px;
   text-align: left;
   
 }
-
-
-
-
 .short-title {
   margin-top: 40px;
   
 }
-
 .buttoncontact {
 align-items: center;
 display: flex;
@@ -353,7 +288,6 @@ justify-content: center;
 padding: 0 0 30px;
 
 }
-
 .gradient {
   background: #000;
   background-clip: padding-box;
@@ -396,6 +330,47 @@ z-index: -1;
   position: relative;
   text-align: center;
   text-decoration: none;
+}
+.Clients {
+  background: linear-gradient(180deg,#d26feb,transparent);
+  border: 1px solid #000;
+  box-shadow: inset 0 0 0 2px #000, 0 0 0 2px #000;
+  display: grid;
+  gap: 0 1px;
+  grid-auto-rows: 115px;
+  grid-template-columns: repeat(4,1fr);
+}@media (min-width: 370px) and (max-width: 750px){
+  .Clients {
+   grid-template-columns: repeat(3,1fr);
+  }}
+.client {
+  background-color: #000;
+  text-align: center;
+}
+.content {
+margin: auto;
+max-width: 960px;
+}
+.company-title{
+  font-family: 'Exo 2', sans-serif;
+  color: #fcfcfd;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+.Partners {
+  margin: 30px 0 76px;
+  display: flex;
+}
+.realmadryt {
+align-items: center;
+background: #000;
+border-bottom: 1px solid #000;
+border-top: 1px solid #000;
+display: flex;
+justify-content: center;
+padding: 25px;
 }
 
 

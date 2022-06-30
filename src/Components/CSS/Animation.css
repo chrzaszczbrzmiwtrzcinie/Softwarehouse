@@ -143,5 +143,34 @@
         height: 94px;
         width: 100px;
       }
+      .allegro {
+        background: url(./images/allegrov2.png)no-repeat 50%; 
+        height: 30px;
+        width: 68px;
+      }@media (min-width: 1000px){
+        .allegro {
+        background: url(./images/allegro.svg.png)no-repeat 50%; 
+        height: 60px;
+        width: 125px;
+      }}
+      .img {
+        background: url(./images/yes.svg) no-repeat 0;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-top: 24px;
+        padding-left: 34px;
+      
+      }
+      .logov3 {
+        background: url(./images/logo1.png)no-repeat 50%; 
+        height: 271px;
+        justify-self: center;
+        position: relative;
+        bottom: -50px;
+      }@media (max-width: 1000px) {
+      .logov3{
+      bottom: 0px;
+      }}
   
   

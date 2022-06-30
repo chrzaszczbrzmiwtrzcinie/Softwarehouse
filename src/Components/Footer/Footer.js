@@ -1,6 +1,5 @@
 import React from 'react'
 import './../../Components/CSS/Footer.css';
-
 const Footer = () => {
   return (
   <div className="container">
@@ -35,7 +34,6 @@ const Footer = () => {
                 <a href="/about" class="links">
                About
 			    </a>
-
         </div>
         </div>
     </div>
@@ -53,14 +51,11 @@ const Footer = () => {
             </div>
         </div>
         <div className='social'>
-            <a href="/" class="icons instagram ">
-            </a>
-             <a href="/" class="icons facebook">
-		    </a>
-            <a href="/" class="icons telegram">
-		    </a>
-            <a href="/" class="icons linkedin">
-            </a>
+            <a href="/home" class="icons instagram"/>
+            <a href="/home" class="icons facebook"/>
+            <a href="/home" class="icons telegram"/>
+            <a href="/home" class="icons linkedin"/>
+            
         </div>
         <div className='letsfckschool'>
                  <h2 className='title2'>
