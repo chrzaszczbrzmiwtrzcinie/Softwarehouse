@@ -1,8 +1,6 @@
 import React from 'react'
 
-import './../../Components/CSS/App.css';
-import './../../Components/CSS/Animation.css'
-import video from "./../../images/video.mp4";
+import './../../Components/CSS/Home.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
@@ -12,12 +10,8 @@ AOS.init();
 
 
 const Home = () => {
-
   return (
-
-
 <div>
-  
 <div className="App">
   <div>
   
@@ -46,7 +40,7 @@ const Home = () => {
         <div className='features img'>Robienie Exploitów w kodzie</div>
       </div>
       <div>
-        <div className='logov3'></div>
+        <div className='logov3' data-aos="fade-up" data-aos-delay="100"></div>
       </div>
     </div>
 
@@ -54,7 +48,7 @@ const Home = () => {
         <div>
           <div className='noclass'></div>
         </div>
-      <div>
+      <div className='build'>
         <div className='element2'><h2>#TITLE</h2></div>
         <h3 className='text'>Ecommerce</h3>
         <p className='p'>We build online stores that are limited only by your imagination. We optimize them in terms of marketing, because each store must be able to sell. We use batch methods, and if you use these methods, we write the basics of the modules as needed. 

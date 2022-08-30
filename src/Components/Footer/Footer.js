@@ -6,9 +6,6 @@ const Footer = () => {
 <footer>
     <div className='upfooter'>
     <div className='location'>
-        <div>NIP 8992786490</div>
-        <div>KRS 0000608120</div>
-        <div>REGON 363987723</div>
         </div>
         <div className='someinfo'>
             <div className='pointer icn'></div>
@@ -18,23 +15,7 @@ const Footer = () => {
             <div className='small'>5612 AZ</div>
         </div>
         <div className='pages'>
-        <div className='pages-menu'>
-        <a href="/" class="links">
-                    Home
-		    	</a>
-                <a href="/register" class="links">
-               Register
-			    </a>
-                <a href="/services" class="links">
-                Services
-		    	</a>
-               <a href="/login" class="links">
-               Login
-			    </a>
-                <a href="/about" class="links">
-               About
-			    </a>
-        </div>
+        
         </div>
     </div>
 

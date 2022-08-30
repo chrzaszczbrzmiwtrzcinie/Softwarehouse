@@ -1,3 +1,4 @@
+
 h5 {
   display: block;
   font-size: 0.83em;
@@ -76,14 +77,20 @@ h3{
   text-align:left;
 }
 .noclass {
-  background: url(./images/page.jpg);
+  background: url(./../CSS/images/background.jpg);
   height: 441px;
   justify-self: center;
   position: relative;
-  width: 700px;
+  width: 600px;
   justify-content: flex-start;
   padding: 42px 0 0;
-}
+  border-radius: 90px;
+}@media (max-width: 1000px){
+  .noclass {
+    background: url(./../CSS/images/background.jpg);
+    height: 441px;
+    width: 360px;
+  }}
 h2 {
   -webkit-text-fill-color: transparent;
   background: linear-gradient(90deg,#0ff 0,rgba(0,255,255,.4));
@@ -93,7 +100,7 @@ h2 {
   letter-spacing: .02em;
   line-height: 15px;
   margin: 0;
-  -webkit-background-clip: text;
+  webkit-background-clip: text;
 }
 .p {
   font-size: 14px;
@@ -249,6 +256,7 @@ h2 {
   padding: 0;
   text-align: left;
   margin: 100px 0;
+  gap: 90px;
 }
 .Pap {
   flex-direction: row;
@@ -349,7 +357,7 @@ z-index: -1;
 }
 .content {
 margin: auto;
-max-width: 960px;
+max-width: 1100px;
 }
 .company-title{
   font-family: 'Exo 2', sans-serif;
@@ -371,6 +379,98 @@ border-top: 1px solid #000;
 display: flex;
 justify-content: center;
 padding: 25px;
+}
+.circle {
+  position: absolute;
+  background: url(./images/yesclass.png);
+  height: 500px;
+  width: 500px;
+}
+.clip-each {
+  display: block;
+  position: relative;
+  -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+  clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+  -webkit-clip-path: url("#hexagon-clip");
+  clip-path: url("#hexagon-clip");
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  margin: 0 auto;
+}
+
+a.clip-each:hover {
+  filter: blur(4px);
+  -webkit-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+
+}
+
+.clip-gradient .clip-caption {
+  color: #fff;
+}
+.clip-caption {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+} 
+
+.react {
+  background-image: url(./../../images/react-hexagon.png);
+  height: 90px;
+  width: 96px;
+}
+
+.java {
+  background-image: url(./../../images/java.png);
+  height: 90px;
+  width: 97px;
+}
+
+.angular {
+  background-image: url(./../../images/angular.png);
+  height: 94px;
+  width: 100px;
+}
+.allegro {
+  background: url(./images/allegrov2.png)no-repeat 50%; 
+  height: 30px;
+  width: 68px;
+}@media (min-width: 1000px){
+  .allegro {
+  background: url(./images/allegro.svg.png)no-repeat 50%; 
+  height: 60px;
+  width: 125px;
+}}
+.img {
+  background: url(./images/yes.svg) no-repeat 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-top: 24px;
+  padding-left: 34px;
+
+}
+.logov3 {
+  background: url(../CSS/images/background2.jpg)no-repeat 50%; 
+  height: 441px;
+  justify-self: center;
+  position: relative;
+  width: 600px;
+  justify-content: flex-start;
+  padding: 42px 0 0;
+  border-radius: 90px;
+}@media (max-width: 1000px) {
+.logov3{
+  height: 441px;
+  width: 360px;
+}}
+
+.build {
+  width: 500px;
 }
 
 
