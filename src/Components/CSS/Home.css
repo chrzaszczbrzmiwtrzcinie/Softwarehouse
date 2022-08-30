@@ -100,7 +100,7 @@ h2 {
   letter-spacing: .02em;
   line-height: 15px;
   margin: 0;
-  webkit-background-clip: text;
+  -webkit-background-clip: text;
 }
 .p {
   font-size: 14px;
