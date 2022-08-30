@@ -1,5 +1,9 @@
 import React from 'react'
 import '../../Components/CSS/Contact.css'
+import '../../Components/CSS/Faq.css'
+import Accordion from 'react-bootstrap/Accordion';
+
+
 
 
 
@@ -11,7 +15,7 @@ const Contact = () => {
       <div className="container">
        <div className='contact3 window'>
          <div className='info-text'>
-           <div className='element2'><h2>CONTACT US</h2>
+           <div className='element2'><h2 className='lightblue'>CONTACT US</h2>
            <h3 className='text'>Web & Mobile Software House</h3>
            <p className='p'>Implement solutions with impact. Digitize all aspects of your business and gain the technological advantage cooperating with commerce transformation experts. </p></div>
         </div>
@@ -50,6 +54,55 @@ const Contact = () => {
       </div>
     </div>
   </div>
+  </div>
+ </div>
+ <div className='selection-faq container'>
+  <div className='containerdofaq'>
+    <div className='margin'>
+    <h2 className='lightblue'>FAQ</h2>
+    <h3>Need help with anything?</h3>
+    </div>
+    <Accordion defaultActiveKey="0">
+      <Accordion.Item eventKey="1">
+        <Accordion.Header>Czy wykonywał Pan/Pani ten rodzaj pracy?</Accordion.Header>
+        <Accordion.Body>
+        A. Tak, wykonywałem taką lub podobną pracę. Jeżeli masz doświadczenie w wykonywaniu pracy, mów o niej w taki sposób, aby przekonać pracodawcę, że znasz się na tej pracy i jesteś w stanie ją wykonywać.
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="2">
+        <Accordion.Header>Dlaczego odszedł Pan/odeszła Pani z poprzedniej pracy?
+      </Accordion.Header>
+        <Accordion.Body>
+        Wymień tylko te powody, które stawiają Cię w korzystnym świetle. Nie wspominaj o tym, że zostałeś zwolniony, pokłóciłeś się, wyrzucono Cię, itp. Jeżeli jednak któryś z tych powodów zostanie ujawniony podczas rozmowy, zapewnij pracodawcę, że podobny problem na pewno nie będzie miał miejsca w pracy, o którą się starasz.
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="3">
+        <Accordion.Header>Dlaczego powinniśmy zatrudnić Pana/Panią a nie kogoś innego?
+      </Accordion.Header>
+        <Accordion.Body>
+        A. Udziel szybkiej odpowiedzi - jeśli Ty sam sprawisz wrażenie, że nie wiesz, dlaczego powinieneś dostać tę pracę, nie sądź, że będzie to wiedział Twój rozmówca.
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="4">
+        <Accordion.Header>Czy wykonywał Pan/Pani ten rodzaj pracy?</Accordion.Header>
+        <Accordion.Body>
+        A. Tak, wykonywałem taką lub podobną pracę. Jeżeli masz doświadczenie w wykonywaniu pracy, mów o niej w taki sposób, aby przekonać pracodawcę, że znasz się na tej pracy i jesteś w stanie ją wykonywać.
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="5">
+        <Accordion.Header>Czy wykonywał Pan/Pani ten rodzaj pracy?</Accordion.Header>
+        <Accordion.Body>
+        A. Tak, wykonywałem taką lub podobną pracę. Jeżeli masz doświadczenie w wykonywaniu pracy, mów o niej w taki sposób, aby przekonać pracodawcę, że znasz się na tej pracy i jesteś w stanie ją wykonywać.
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="6">
+        <Accordion.Header>Czy wykonywał Pan/Pani ten rodzaj pracy?</Accordion.Header>
+        <Accordion.Body>
+        A. Tak, wykonywałem taką lub podobną pracę. Jeżeli masz doświadczenie w wykonywaniu pracy, mów o niej w taki sposób, aby przekonać pracodawcę, że znasz się na tej pracy i jesteś w stanie ją wykonywać.
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
+    
   </div>
  </div>
  </div>

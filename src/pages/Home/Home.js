@@ -31,7 +31,7 @@ const Home = () => {
     </div>
 
     <div className='pis App' data-aos="fade-up" data-aos-delay="100">
-      <div className='element2'><h2>#TITLE</h2>
+      <div className='element2'><h2 className='lightblue'>#TITLE</h2>
         <h3 className='text'>Web & Mobile Software House</h3>
           <p className='p'>Implement solutions with impact. Digitize all aspects of your business and gain the technological advantage cooperating with commerce transformation experts. 
          </p>
@@ -49,7 +49,7 @@ const Home = () => {
           <div className='noclass'></div>
         </div>
       <div className='build'>
-        <div className='element2'><h2>#TITLE</h2></div>
+        <div className='element2'><h2 className='lightblue'>#TITLE</h2></div>
         <h3 className='text'>Ecommerce</h3>
         <p className='p'>We build online stores that are limited only by your imagination. We optimize them in terms of marketing, because each store must be able to sell. We use batch methods, and if you use these methods, we write the basics of the modules as needed. 
         </p>

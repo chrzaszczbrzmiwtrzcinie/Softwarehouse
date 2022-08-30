@@ -78,17 +78,7 @@ grid-template-columns: repeat(3,1fr);
   margin: 14px;
 }
 
-h2 {
-    -webkit-text-fill-color: transparent;
-    background: linear-gradient(90deg,#0ff 0,rgba(0,255,255,.4));
-    display: inline-block;
-    font-size: 15px;
-    font-weight: 500;
-    letter-spacing: .02em;
-    line-height: 15px;
-    margin: 0;
-    -webkit-background-clip: text;
-  }
+
   
 
   .icons {

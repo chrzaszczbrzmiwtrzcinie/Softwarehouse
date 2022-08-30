@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'wotfard';
+  src: url('../CSS/images/wotfard.woff2') format('woff2');
+    }
+@font-face {
+    font-family: 'bolt';
+    src: url('../CSS/images/bolt.woff2') format('woff2');
+}
+
+
+h2 {
+    -webkit-text-fill-color: white;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 800;
+    font-family: 'bolt';
+}
+    
+  
+@media (min-width: 1000px){
+.section-faq {
+    margin-top: 160px;
+}}
+.selection-faq{
+    margin-top: 80px;
+}
+
+    @media (min-width: 1300px){
+.containerdofaq {
+    max-width: 1224px;
+    margin-top: 50px;
+}}
+.margin {
+    margin-top: 50px;
+}
+.container {
+    margin: 0 16px;
+}
+@media (min-width: 1000px){
+.faq-grid {
+    grid-gap: 24px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}}
+.leaters {
+    font-size: 23px;
+}
+
+@media (min-width: 1000px){
+.z {
+    padding: 0 40px;
+}}
+.z {
+margin: 0;
+max-height: 0;
+overflow: hidden;
+padding: 0 24px;
+transition: max-height .3s ease;
+}
+@media (min-width: 1000px){
+h6:before {
+    left: 20px;
+}}
+h6:before {
+    background: url(../CSS/images/kropka.svg) no-repeat 50%;
+    content: "";
+    display: block;
+    height: 10px;
+    left: 0;
+    position: absolute;
+    width: 10px;
+}
+@media (min-width: 1000px){
+.accordion {
+    grid-gap: 5px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}}
+.accordion-item {
+    max-width: 600px;
+}
+.accordion-button {
+    border: none;
+    background-color: #0000ff00;
+    text-align: left;
+    padding: 2px;
+}
+.h2.accordion-header {
+    -webkit-text-fill-color: white;
+    color: white;
+}

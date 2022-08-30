@@ -14,6 +14,7 @@ import Testimonial from './pages/Testimonial/Testimonial';
 import Navbar from './Components/Navbar/Navbar';
 import Login from './pages/Login/Login';
 import Footer from './Components/Footer/Footer';
+import Faq from './pages/Faq/Faq';
 
 const App = () => {
   return (
@@ -22,7 +23,6 @@ const App = () => {
     
     <Navbar/>
     <main>
-
       <Switch>
         <Route path="/" exact>
           <Home/>
@@ -43,7 +43,7 @@ const App = () => {
           <Login/>
         </Route>
         <Redirect to="/" />
-      </Switch>
+      </Switch> 
     </main>
     <Footer/> 
     

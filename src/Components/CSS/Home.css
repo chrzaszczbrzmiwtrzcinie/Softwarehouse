@@ -1,4 +1,14 @@
-
+.lightblue {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg,#0ff 0,rgba(0,255,255,.4));
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .02em;
+    line-height: 15px;
+    margin: 0;
+    -webkit-background-clip: text;
+}
 h5 {
   display: block;
   font-size: 0.83em;
@@ -91,17 +101,7 @@ h3{
     height: 441px;
     width: 360px;
   }}
-h2 {
-  -webkit-text-fill-color: transparent;
-  background: linear-gradient(90deg,#0ff 0,rgba(0,255,255,.4));
-  display: inline-block;
-  font-size: 15px;
-  font-weight: 500;
-  letter-spacing: .02em;
-  line-height: 15px;
-  margin: 0;
-  -webkit-background-clip: text;
-}
+
 .p {
   font-size: 14px;
   font-weight: 300;
