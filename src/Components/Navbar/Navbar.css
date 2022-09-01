@@ -1,20 +1,5 @@
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 
-  background: #000;
-  color: #fff;
-  font-family: Wotfard,Arial,serif;
-  font-weight: 300;
-  padding-top: 56px;
-  scrollbar-color: #073a4d transparent;
-  scrollbar-width: thin;
-}
 * {
   margin: 0;
   padding: 0;
@@ -96,51 +81,7 @@ i {
 #navbarSupportedContent .active > a:not(:only-child):after {
   transform: rotate(90deg);
 }
-  .App {
-    text-align: center;
-    padding: 1em;
-    display: grid;
-    grid-gap: 2em;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 150px;
-    margin: auto;
-    max-width: 1260px;
-  }
 
-  h3{
-    font-size:
-    24px;font-weight:600;
-    line-height:30px;
-    margin:8px 0 0;
-  }@media (min-width:1000px){
-    h3{font-size:40px;
-      line-height:48px;
-    }}
-
-  .pis{
-    padding-bottom:50px;
-  }
-  @media (min-width:1000px)
-  {
-    .pis{padding-bottom:0;
-    padding-top:10px}
-  }
-  .pis{margin:100px 0}
-  @media (min-width:1000px)
-  {.pis{max-width:45ch}
-  }
-  .pis{
-    background:none;
-    height:auto;
-    max-width:-webkit-max-content;
-    max-width:-moz-max-content;
-    max-width:max-content;
-    padding:0;text-align:left
-  }
-  
-  
-  
-  
   .p {
     font-size: 14px;
     font-weight: 300;

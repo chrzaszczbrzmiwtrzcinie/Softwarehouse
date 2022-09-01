@@ -32,10 +32,10 @@ const Footer = () => {
             </div>
         </div>
         <div className='social'>
-            <a href="/home" class="icons instagram"/>
-            <a href="/home" class="icons facebook"/>
-            <a href="/home" class="icons telegram"/>
-            <a href="/home" class="icons linkedin"/>
+            <a href="/home" class="icons instagram"> </a>
+            <a href="/home" class="icons facebook"> </a>
+            <a href="/home" class="icons telegram"> </a>
+            <a href="/home" class="icons linkedin"> </a>
             
         </div>
         <div className='letsfckschool'>

@@ -57,7 +57,7 @@ const Home = () => {
       </div>
     </div>
   </div>
-  <div className='tech colour'>
+  <div className='Container tech colour'>
       <div data-aos="fade-up" data-aos-delay="200">
         <div>
           <h3 className='collumns'>What Technologies we use to programming pages</h3>
@@ -69,7 +69,6 @@ const Home = () => {
         <ul className='list'>
           <li data-aos="fade-up" data-aos-delay="200">
              <a href="/" class="clip-each angular" data-aos="fade-up" data-aos-delay="200" >
-				      <div class="clip-caption"></div>
 			       </a>
              <a href="/">
               <h5 className='center2' >Angular</h5>
@@ -95,10 +94,8 @@ const Home = () => {
           </li>
         </ul>
       </div>
-      <div className='content'>
-        <div>
+      <div className='container'>
           <h3 class="company-title">Companies that trusted us</h3>
-        </div>
         <div className='Partners'></div>
         <div className='Clients'>
           <div className='client realmadryt'>

@@ -1,13 +1,13 @@
 .lightblue {
-    -webkit-text-fill-color: transparent;
-    background: linear-gradient(90deg,#0ff 0,rgba(0,255,255,.4));
-    display: inline-block;
-    font-size: 15px;
-    font-weight: 500;
-    letter-spacing: .02em;
-    line-height: 15px;
-    margin: 0;
-    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg,#0ff 0,rgba(0,255,255,.4));
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: .02em;
+  line-height: 15px;
+  margin: 0;
+ background-clip: text;
 }
 h5 {
   display: block;
@@ -41,20 +41,16 @@ body {
   letter-spacing: .02em;
   line-height: 22px;
 }
+
 .App {
   text-align: center;
   padding: 1em;
   display: grid;
-  grid-gap: 2em;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 150px;
+  gap: 90px;
   margin: auto;
   max-width: 1200px;
-}@media (max-width: 1200px){
-  .App {
-  margin: auto;
-  max-width: 960px;
-}}
+}
 h3{
   font-size:24px;
   font-weight:600;
@@ -86,21 +82,22 @@ h3{
   padding:0;
   text-align:left;
 }
-.noclass {
-  background: url(./../CSS/images/background.jpg);
-  height: 441px;
-  justify-self: center;
-  position: relative;
-  width: 600px;
-  justify-content: flex-start;
-  padding: 42px 0 0;
-  border-radius: 90px;
-}@media (max-width: 1000px){
+@media (max-width: 1000px){
   .noclass {
     background: url(./../CSS/images/background.jpg);
     height: 441px;
-    width: 360px;
+    max-width: 100%;
   }}
+  .noclass {
+    background: url(./../CSS/images/background.jpg);
+    height: 441px;
+    justify-self: center;
+    position: relative;
+    width: 600px;
+    justify-content: flex-start;
+    padding: 42px 0 0;
+    border-radius: 90px;
+  }
 
 .p {
   font-size: 14px;
@@ -135,7 +132,7 @@ h3{
 .uptext {
   -webkit-text-fill-color: transparent;
   background: linear-gradient(90deg,#0ff 0,rgba(0,255,255,.4));
-  -webkit-background-clip: text;
+  background-clip: text;
   display: inline-block;
   font-size: 18px;
   font-weight: 500;
@@ -147,26 +144,7 @@ h3{
   text-align: center;
   margin: 8px;
 }
-#video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  z-index: 0;
-}
-#video {
-  display: block;
-  min-height: 100%;
-  min-width: 100%;
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: -1;
-}
-  .buttonguton {
+.buttonguton {
       background-color: transparent;
       border: 3px solid #1fc51f;
       border-radius: 50px;
@@ -191,20 +169,10 @@ h3{
   padding: 1rem;
   text-align: center;
 }
-.hero p {
-  font-size: 1.4rem;
-}
-.hero .btn {
-  margin: 1rem;
-}
-.bottom-text h2 {
-  font-size: 1.6rem;
-  text-align: center;
-}
 .blue {
   -webkit-text-fill-color: transparent;
   background: linear-gradient(90deg,#0ff 0,rgb(0, 195, 255));
--webkit-background-clip: text;
+background-clip: text;
 }
 .tech {
   align-items: center;
@@ -217,7 +185,7 @@ h3{
   text-align: center;
 }
 .margin {
-  margin: 25px 0;
+  margin: 25px 5;
   max-width: 580px;
 }
 .list {
@@ -250,9 +218,6 @@ h3{
 }
 .Po {
   display: flex;
-  flex-direction: column-reverse;
-  margin-bottom: 200px;
-  margin-top: 100px;
   padding: 0;
   text-align: left;
   margin: 100px 0;
@@ -260,7 +225,7 @@ h3{
 }
 .Pap {
   flex-direction: row;
-}@media (max-width: 600px){
+}@media (max-width: 1000px){
   .Pap {
     display: flex;
     flex-direction: column-reverse;
@@ -347,10 +312,14 @@ z-index: -1;
   gap: 0 1px;
   grid-auto-rows: 115px;
   grid-template-columns: repeat(4,1fr);
-}@media (min-width: 370px) and (max-width: 750px){
+}@media (min-width: 170px) and (max-width: 750px){
   .Clients {
    grid-template-columns: repeat(3,1fr);
   }}
+@media (min-width: 160px) and (max-width: 350px){
+    .Clients {
+     grid-template-columns: repeat(2,1fr);
+    }}
 .client {
   background-color: #000;
   text-align: center;
@@ -388,13 +357,6 @@ padding: 25px;
 }
 .clip-each {
   display: block;
-  position: relative;
-  -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
-  clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
-  -webkit-clip-path: url("#hexagon-clip");
-  clip-path: url("#hexagon-clip");
-  -webkit-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
   margin: 0 auto;
 }
 
@@ -404,19 +366,6 @@ a.clip-each:hover {
   transition: all 0.25s ease-in;
 
 }
-
-.clip-gradient .clip-caption {
-  color: #fff;
-}
-.clip-caption {
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  text-align: center;
-} 
 
 .react {
   background-image: url(./../../images/react-hexagon.png);
@@ -459,18 +408,21 @@ a.clip-each:hover {
   height: 441px;
   justify-self: center;
   position: relative;
-  width: 600px;
+  width: 100%;
   justify-content: flex-start;
   padding: 42px 0 0;
   border-radius: 90px;
 }@media (max-width: 1000px) {
 .logov3{
   height: 441px;
-  width: 360px;
+  max-width: 100%;
 }}
-
+@media (max-width: 1000px) {
+  .build {
+    width: 100%;
+  }}
 .build {
-  width: 500px;
+  width: 100%;
 }
 
 
