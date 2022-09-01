@@ -8,7 +8,7 @@ i {
   margin-right: 10px;
 }
 .navbar-logo {
-  background: url(./../../images/logo1.png);
+  background: url(../CSS/images/logo1.png);
   pointer-events: none;
   background-size:contain;
   height:60px;

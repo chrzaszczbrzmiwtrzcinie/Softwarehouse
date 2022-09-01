@@ -82,35 +82,35 @@ grid-template-columns: repeat(3,1fr);
   
 
   .icons {
-    background: url(./../../images/facebook.svg) no-repeat 50%;
+    background: url(../CSS/images/facebook.svg) no-repeat 50%;
     background-size: contain;
     height: 24px;
     margin: 14px;
     width: 24px;
   }
   .facebook {
-    background-image: url(./../../images/facebook.svg);
+    background-image: url(../CSS/images/facebook.svg);
     background-size: contain;
     height: 24px;
     margin: 14px;
     width: 24px;
   }
 .telegram {
-  background-image: url(./../../images/telegram.svg);
+  background-image: url(../CSS/images/telegram.svg);
   background-size: contain;
   height: 24px;
   margin: 14px;
   width: 24px;
 }
 .instagram {
-  background-image: url(./../../images/instagram.svg);
+  background-image: url(../CSS/images/instagram.svg);
   background-size: contain;
   height: 24px;
   margin: 14px;
   width: 24px;
 }
 .linkedin {
-  background-image: url(./../../images/linkedin.svg);
+  background-image: url(../CSS/images/linkedin.svg);
   background-size: contain;
   height: 24px;
   margin: 14px;
@@ -188,11 +188,11 @@ font-weight: bold;
   font-size: 16px;
 }
 .icn {
-  background: url(./../../images/pointer.png) no-repeat 50%;
+  background: url(../CSS/images/pointer.png) no-repeat 50%;
 }
 
 .pointer {
-  background-image: url(./../../images/pointer.png);
+  background-image: url(../CSS/images/pointer.png);
   background-size: contain;
   height: 30px;
   margin: 14px;

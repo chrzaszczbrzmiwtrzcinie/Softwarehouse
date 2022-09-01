@@ -349,12 +349,6 @@ display: flex;
 justify-content: center;
 padding: 25px;
 }
-.circle {
-  position: absolute;
-  background: url(./images/yesclass.png);
-  height: 500px;
-  width: 500px;
-}
 .clip-each {
   display: block;
   margin: 0 auto;
@@ -368,19 +362,19 @@ a.clip-each:hover {
 }
 
 .react {
-  background-image: url(./../../images/react-hexagon.png);
+  background-image: url(../CSS/images/react-hexagon.png);
   height: 90px;
   width: 96px;
 }
 
 .java {
-  background-image: url(./../../images/java.png);
+  background-image: url(../CSS/images/java.png);
   height: 90px;
   width: 97px;
 }
 
 .angular {
-  background-image: url(./../../images/angular.png);
+  background-image: url(../CSS/images/angular.png);
   height: 94px;
   width: 100px;
 }
