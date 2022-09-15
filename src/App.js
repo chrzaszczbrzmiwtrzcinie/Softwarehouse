@@ -9,11 +9,12 @@ import {
 import Contact from './pages/Contact/Contact';
 import Register from './pages/Register/Register';
 import Home from './pages/Home/Home';
-import Services from './pages/Service/Services';
 import Testimonial from './pages/Testimonial/Testimonial';
 import Navbar from './Components/Navbar/Navbar';
 import Login from './pages/Login/Login';
 import Footer from './Components/Footer/Footer';
+import About from './pages/About/About';
+import Faq from './pages/Faq/Faq';
 
 const App = () => {
   return (
@@ -29,8 +30,9 @@ const App = () => {
         <Route path="/contact" exact>
           <Contact/>
         </Route>
-        <Route path="/service" exact>
-          <Services/>
+        <Route path="/about" exact>
+          <About/>
+          <Faq/>
         </Route>
         <Route path="/testimonial" exact>
           <Testimonial/>

@@ -1,23 +1,77 @@
-import * as React from 'react';
-import Accordion from 'react-bootstrap/Accordion';
+import React, { useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore, { Navigation, Pagination, Controller, Thumbs } from 'swiper';
+import 'swiper/swiper-bundle.css';
+import '../../Components/CSS/Faq.css'
 
-function BasicExample() {
+SwiperCore.use([Navigation, Pagination, Controller, Thumbs]);
+
+function Faq() {
+  const [thumbsSwiper] = useState(null);
+  const [controlledSwiper] = useState(null);
+
+  const gowno = [];
+  for (let i = 0; i < 1; i += 1) {
+    gowno.push(
+      <SwiperSlide key={`thumb-${i}`} tag="li" style={{ listStyle: 'none' }}>
+        <div className='black none'>
+          <div className='fristcard none'>
+          <h1>chuj</h1>
+         </div>
+        </div>
+      </SwiperSlide>
+    );
+  } 
+  const dzialaj = [];
+  for (let i = 0; i < 1; i += 1) {
+    dzialaj.push(
+      <SwiperSlide key={`thumb-${i}`} tag="li" style={{ listStyle: 'none' }}>
+         <div className='black'>
+          <div className='fristcard'>
+          <h1>chuj</h1>
+         </div>
+        </div>
+      </SwiperSlide>
+    );
+  }
+  const jebac = [];
+  for (let i = 0; i < 1; i += 1) {
+    jebac.push(
+      <SwiperSlide key={`thumb-${i}`} tag="li" style={{ listStyle: 'none' }}>
+        <div className='black'>
+          <div className='fristcard'>
+          <h1>chuj</h1>
+         </div>
+        </div>
+      </SwiperSlide>
+    );
+  }
+
+
   return (
-    <Accordion defaultActiveKey="0">
-      <Accordion.Item eventKey="1">
-        <Accordion.Header>Accordion Item #2</Accordion.Header>
-        <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </Accordion.Body>
-      </Accordion.Item>
-    </Accordion>
+    <React.Fragment>
+      <Swiper
+        id="main"
+        thumbs={{ swiper: thumbsSwiper }}
+        controller={{ control: controlledSwiper }}
+        tag="section"
+        wrapperTag="ul"
+        navigation
+        pagination
+        spaceBetween={0}
+        slidesPerView={1}
+        onInit={(swiper) => console.log('Swiper initialized!', swiper)}
+        onSlideChange={(swiper) => {
+          console.log('Slide index changed to: ', swiper.activeIndex);
+        }}
+        onReachEnd={() => console.log('Swiper end reached')}
+      >
+        {gowno}
+        {dzialaj}
+        {jebac}
+      </Swiper>
+    </React.Fragment>
   );
 }
 
-export default BasicExample;
+export default Faq;

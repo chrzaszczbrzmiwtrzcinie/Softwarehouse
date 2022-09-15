@@ -31,10 +31,10 @@ const Navbar = () => {
               </NavLink> 
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link a" to="/service" exact>
+              <NavLink className="nav-link a" to="/about" exact>
                 <i 
                 className="far fa-clone">
-                </i>Services
+                </i>About Us
               </NavLink>
             </li>
             <li className="nav-item">
