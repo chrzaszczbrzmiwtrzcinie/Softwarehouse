@@ -80,19 +80,6 @@
     height: 500px;
   }
 
-/*
-  display: -ms-grid;
-  display: grid;
-  width: 100%;
-  grid-auto-columns: 1fr;
-  grid-column-gap: 16px;
-  grid-row-gap: 16px;
-  -ms-grid-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: auto;
-  grid-template-rows: auto;
-} 
-*/
 @media screen and (max-width: 767px) {
     .fristcard {
         position: relative;
@@ -206,4 +193,20 @@ display: block;
 }
 .workergradient {
     background-image: linear-gradient(180deg, #4fd1c5, #243a38);
+}
+
+.socialinks {
+    position: absolute;
+    z-index: 4;
+}
+
+.linkedinbutton {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    display: block;
+    height: 40px;
+    width: 40px;
+    background: url(../CSS/images/linkedinlinks.svg);
 }
