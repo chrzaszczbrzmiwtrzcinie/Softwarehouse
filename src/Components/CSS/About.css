@@ -57,7 +57,8 @@
     background-color: rgba(35, 38, 47, 0.4);
 }@media screen and (max-width: 767px) {
     .latdoswiadczenia30 {
-        display: none;
+        width: 93%;
+        height: 647px;
     }
     }
 .position2 {
@@ -198,8 +199,8 @@ display: block;
 .socialinks {
     position: absolute;
     z-index: 4;
+    right: 35px;
 }
-
 .linkedinbutton {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -209,4 +210,23 @@ display: block;
     height: 40px;
     width: 40px;
     background: url(../CSS/images/linkedinlinks.svg);
+}   
+.workernumber {
+    position: absolute;
+    left: 36px;
+    top: 52px;
+    right: auto;
+    bottom: auto;
+    z-index: 10;
+}
+.numberofperson{
+    background: linear-gradient(90deg,#ff00fa 0,rgb(255 0 218));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 23px;
+}
+.lightpurple {
+    background: linear-gradient(90deg,#ff00fa 0,rgb(255 0 218));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
